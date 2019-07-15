@@ -1,0 +1,68 @@
+.header {
+	padding: 0 94px;
+	background-image: url(../img/logo.png);
+	background-size: 88px auto;
+	background-repeat: no-repeat;
+	background-position: 94px 50%;
+}
+
+.menu {
+	float: left;
+	margin-left: 179px;
+	width: 550px;
+}
+
+ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0; /* Значение полей */
+   }
+
+ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 22px;
+   }
+
+ul li:last-child {
+	margin-right: 0;
+}
+
+a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+form {
+  float: right;
+  width: 163px;
+  position: relative;
+
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+	text-align: center;
+  height: 25px;
+  padding-left: 15px;
+  border: 1px solid #c2c2c2;
+  text-transform: uppercase;
+  background-image: url(../img/magnifier.png);
+  background-repeat: no-repeat;
+  background-position: 30px 50%;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  top: 46%;
+  left: 30px;
+  height: 12px;
+  width: 12px;
+}

@@ -1,0 +1,37 @@
+body {
+	background-color: rgb(234,234,234);
+}
+
+.content-wrapper {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.body-block {
+	background-color: white;
+	margin-bottom: 85px;
+	box-shadow: 0 0 13px rgba(0,0,0,0.2);
+}
+
+.logo {
+	display: block;
+	position: relative;
+	margin: 250px auto 119px auto;
+}
+
+.header {
+	height: 123px;
+	line-height: 123px;
+}
+
+.article {
+	height: 438px;
+}
+
+.aside {
+	height: 373px;
+}
+
+.footer {
+	height: 180px;
+}
